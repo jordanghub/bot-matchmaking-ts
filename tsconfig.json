@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "outDir": "lib/",
+    "strict": true,
+    "types": ["@babel/types", "@types/node", "@types/sequelize"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "paths": {
+      "@app/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
